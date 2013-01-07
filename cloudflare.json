@@ -1,7 +1,7 @@
 {
     "main":"",
     "name":"GTranslate",
-    "description": "Multilingual website solution for CloudFlare",
+    "description": "GTranslate makes your website multilingual and available to the world!",
     "version": "1.0.1",
     "category": "translation",
 
