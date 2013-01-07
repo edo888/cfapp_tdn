@@ -6,7 +6,7 @@
     "category": "translation",
 
     "account": {
-        "callback_url": "http://domain.com/api",
+        "callback_url": "http://tdn.gtranslate.net/tdn-bin/api/v1",
         "user_fields": ["email"]
     },
 
