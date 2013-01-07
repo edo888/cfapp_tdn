@@ -2,7 +2,7 @@
     "main":"",
     "name":"GTranslate",
     "description": "Multilingual website solution for CloudFlare",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "category": "translation",
 
     "account": {
@@ -22,11 +22,10 @@
 
     "config":{
         "details":{
-            "Category": "CloudFlare App example",
-            "Language": "English",
-            "Price": "Free to install.",
+            "Category": "Multilingual website solutions",
+            "Price": "$20/month",
             "Restrictions": "None",
-            "CloudFlare": "<a href='http://www.cloudflare.com/terms' target='_blank'>Terms of use</a>"
+            "GTranslate": "<a href='http://gtranslate.net/terms' target='_blank'>Terms of use</a>"
         },
 
         "assets":{
@@ -36,30 +35,6 @@
                 }
         },
 
-        "interface": [
-            {
-                "type": "string",
-                "name": "Favorite Food",
-                "description": "Please tell us your favorite food.",
-                "id": "food",
-                "domain_request": true
-            },
-            {
-                "id": "lottery",
-                "type": "select",
-                "name": "Do you Lotto?",
-                "description": "Choose whether to buy a ticket",
-                "options": [
-                    {
-                        "label": "Yes, buy a ticket!",
-                        "value": "true"
-                    },
-                    {
-                        "label": "No, I am scared.",
-                        "value": ""
-                    }
-                ]
-            }
-        ]
+        "interface": []
     }
 }
